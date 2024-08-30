@@ -1,0 +1,92 @@
+[
+    {
+        "id": "1",
+        "name": "Bandung Digital Studio Building",
+        "location": "Bandung",
+        "stage": "Construction",
+        "category": "Office",
+        "startDate": "2024-08-30",
+        "description": "A new office building in Bandung."
+    },
+    {
+        "id": "2",
+        "name": "Jakarta Tech Hub",
+        "location": "Jakarta",
+        "stage": "Planning",
+        "category": "Office",
+        "startDate": "2024-09-15",
+        "description": "A tech hub in the heart of Jakarta."
+    },
+    {
+        "id": "3",
+        "name": "Bali Eco Resort",
+        "location": "Bali",
+        "stage": "Construction",
+        "category": "Hospitality",
+        "startDate": "2024-10-01",
+        "description": "An eco-friendly resort in Bali."
+    },
+    {
+        "id": "4",
+        "name": "Surabaya Riverfront Park",
+        "location": "Surabaya",
+        "stage": "Completed",
+        "category": "Public",
+        "startDate": "2023-06-01",
+        "description": "A public park along the river in Surabaya."
+    },
+    {
+        "id": "5",
+        "name": "Yogyakarta Cultural Center",
+        "location": "Yogyakarta",
+        "stage": "Planning",
+        "category": "Cultural",
+        "startDate": "2024-12-01",
+        "description": "A center for cultural activities in Yogyakarta."
+    },
+    {
+        "id": "6",
+        "name": "Medan Shopping Mall",
+        "location": "Medan",
+        "stage": "Construction",
+        "category": "Retail",
+        "startDate": "2024-11-01",
+        "description": "A large shopping mall in Medan."
+    },
+    {
+        "id": "7",
+        "name": "Bintan Resort Development",
+        "location": "Bintan",
+        "stage": "Planning",
+        "category": "Hospitality",
+        "startDate": "2025-01-01",
+        "description": "A resort development in Bintan."
+    },
+    {
+        "id": "8",
+        "name": "Balikpapan Port Expansion",
+        "location": "Balikpapan",
+        "stage": "Completed",
+        "category": "Infrastructure",
+        "startDate": "2023-03-15",
+        "description": "Expansion of the Balikpapan port facilities."
+    },
+    {
+        "id": "9",
+        "name": "Semarang Industrial Park",
+        "location": "Semarang",
+        "stage": "Construction",
+        "category": "Industrial",
+        "startDate": "2024-07-01",
+        "description": "An industrial park in Semarang."
+    },
+    {
+        "id": "10",
+        "name": "Malang Eco-Friendly Housing",
+        "location": "Malang",
+        "stage": "Planning",
+        "category": "Residential",
+        "startDate": "2025-03-01",
+        "description": "Eco-friendly housing development in Malang."
+    }
+]
