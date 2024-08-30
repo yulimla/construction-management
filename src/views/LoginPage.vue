@@ -28,8 +28,14 @@
 
 <script lang="ts">
 import { useStore } from 'vuex';
-const store = useStore();
 export default {
+    setup() {
+        const store = useStore();
+
+        return {
+            store,
+        };
+    },
     data() {
         return {
             email: '',
@@ -38,7 +44,7 @@ export default {
     },
     methods: {
         login() {
-            const user = store.state.user;
+            const user = this.store.state.user;
             if (this.email === user.email && this.password === user.password) {
                 this.$router.push('/projects');
             } else {
