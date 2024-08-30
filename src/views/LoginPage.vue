@@ -27,6 +27,8 @@
 </template>
 
 <script lang="ts">
+import { useStore } from 'vuex';
+const store = useStore();
 export default {
     data() {
         return {
@@ -36,7 +38,7 @@ export default {
     },
     methods: {
         login() {
-            const user = this.$store.state.user;
+            const user = store.state.user;
             if (this.email === user.email && this.password === user.password) {
                 this.$router.push('/projects');
             } else {

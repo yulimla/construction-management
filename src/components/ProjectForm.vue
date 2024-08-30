@@ -74,7 +74,10 @@ import { useRouter } from 'vue-router'
 
 export default defineComponent({
     props: {
-        project: Object,
+      project: {
+            type: Object as () => Project | null, // Specify the prop type correctly
+            default: null // Default value for project is null
+        },
     },
     data() {
         return {

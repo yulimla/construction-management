@@ -10,7 +10,7 @@
                     <div class="text-xl font-semibold">Construction Project Management</div>
                     <div class="space-x-4">
                         <!-- Add user profile, notifications, etc. here -->
-                        <button class="btn btn-ghost">Welcome back {{ this.$store.state.user.name ?? "" }}</button>
+                        <button class="btn btn-ghost">Welcome back {{  store.state.user?.name ?? ""  }}</button>
                         <button class="btn btn-ghost">Logout</button>
                     </div>
                 </div>
@@ -26,8 +26,6 @@
 
 <script lang="ts" setup>
 import Sidebar from './SideBar.vue'
+import { useStore } from 'vuex';
+const store = useStore();
 </script>
-
-<style scoped>
-/* Additional styles can go here */
-</style>

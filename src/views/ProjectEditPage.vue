@@ -10,6 +10,7 @@ import { useRoute } from 'vue-router';
 import { Project } from '../entities/Project';
 import ProjectForm from '../components/ProjectForm.vue';
 import { useStore } from 'vuex';
+
 const store = useStore();
 
 const route = useRoute();
@@ -22,7 +23,3 @@ onMounted(() => {
 });
 
 </script>
-
-<style scoped>
-/* Add your styles here */
-</style>
